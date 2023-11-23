@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 10px;
+    /* background-color: aqua; */
+    margin: 30px 70px;
+    column-gap: 25px;
+}
+.child{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
+.blue{
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-position-x:90%;
+    background-repeat: no-repeat;
+    height: 300px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color:rgb(145, 49, 236);
+    border-radius: 10px;
+    padding: 30px;
+    color: #fff;
+}
+.b1{
+    font-size:1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 1em;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+.b2{
+    opacity: 0.7;
+    font-size: 0.8125rem;
+}
+.bf{
+    display: flex;
+}
+.bf p{
+    font-size: 0.8125rem;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin-left: 15px;
+}
+.gray{
+    height: 300px;
+    grid-row: 1/3;
+    border-radius: 10px;
+    background-color:rgb(95, 113, 131);
+    color: #fff;
+    padding: 30px;
+}
+.w1{
+    grid-column:2/1;
+    background-color: #fff;
+    height: 285px;
+    border-radius: 10px;
+    color: black;
+    padding: 30px;
+}
+.black{
+    grid-column: 2/4;
+    border-radius: 10px;
+    background-color: rgb(25, 25, 46);
+    color: #fff;
+    padding: 30px;
+}
+.w2{
+    grid-row: 1/4;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+}
+img{
+    width: 1.75rem;
+    border-radius: 50%;
+}
